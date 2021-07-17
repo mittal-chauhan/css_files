@@ -1,0 +1,162 @@
+/* fake google site */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1#logo {
+    width: 272px;
+    height: 92px;
+    background: url('google.png') top left no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    padding: 14px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    border-radius: 27px;
+    border: solid 1px rgba(187, 182, 182, 0.699);
+}
+
+input[type="text"]:hover {
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    border-radius: 27px;
+    border: solid 1px white;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+input[type="text"]:active {
+    width: 100%;
+    padding: 14px;
+    border-radius: 27px;
+    border: solid 1px rgba(187, 182, 182, 0.699);
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    outline: none;
+}
+
+input[type="submit"] {
+    background: #eee;
+    color: #333;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border: solid 1px rgb(212, 211, 211);
+    padding: 9px;
+}
+
+small {
+    display: block;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+
+}
+
+a:link {
+    color: dodgerblue;
+}
+
+a:visited {
+    color: dodgerblue;
+}
+
+nav#header {
+    text-align: right;
+    padding: 20px;
+}
+
+nav#header ul li, 
+footer nav ul li {
+    display: inline;
+}
+
+nav#header ul li a:link, 
+nav#header ul li a:visited, 
+footer nav ul li a:link, 
+footer nav ul li a:visited {
+    color: rgba(76, 76, 78, 0.945);
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav#header ul li a:hover, 
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    color: rgba(190, 190, 194, 0.945);
+    width: auto;
+}
+
+footer {
+    background: #eee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav {
+    padding: 20px;
+}
+
+footer nav ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+footer nav ul.right_links {
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+}
+
+#new-section {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
